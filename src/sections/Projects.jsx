@@ -7,6 +7,7 @@ import { Center, OrbitControls } from '@react-three/drei';
 import { myProjects } from '../constant/index.js';
 import CanvasLoader from '../components/CanvasLoader.jsx';
 import DemoComputer from '../components/DemoComputer.jsx';
+import { BASE_PATH } from '../utils/basepath'
 
 const projectCount = myProjects.length;
 
@@ -65,17 +66,17 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer">
               <p>Check Live Site</p>
-              <img src="/assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
+              <img src={`${BASE_PATH}assets/arrow-up.png`} alt="arrow" className="w-3 h-3" />
             </a>
           </div>
 
           <div className="flex justify-between items-center mt-7">
             <button className="arrow-btn" onClick={() => handleNavigation('previous')}>
-              <img src="/assets/left-arrow.png" alt="left arrow" />
+              <img src={`${BASE_PATH}assets/left-arrow.png`} alt="left arrow" />
             </button>
 
             <button className="arrow-btn" onClick={() => handleNavigation('next')}>
-              <img src="/assets/right-arrow.png" alt="right arrow" className="w-4 h-4" />
+              <img src={`${BASE_PATH}assets/right-arrow.png`} alt="right arrow" className="w-4 h-4" />
             </button>
           </div>
         </div>

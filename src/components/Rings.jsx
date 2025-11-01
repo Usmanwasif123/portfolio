@@ -1,6 +1,7 @@
 import { useGSAP } from '@gsap/react';
 import { useTexture } from '@react-three/drei';
 import gsap from 'gsap';
+import { BASE_PATH } from '../utils/basepath'
 import { useCallback, useRef, useEffect } from 'react';
 
 const Rings = ({ position }) => {
@@ -12,7 +13,7 @@ const Rings = ({ position }) => {
     }
   }, []);
 
-  const texture = useTexture('textures/rings.png');
+  const texture = useTexture(`${BASE_PATH}textures/rings.png`);
 
   // 🌀 Animate rotation
   useGSAP(

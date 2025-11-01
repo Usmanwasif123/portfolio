@@ -1,3 +1,5 @@
+import { BASE_PATH } from '../utils/basepath';
+
 export const navLinks = [
   {
     id: 1,
@@ -26,7 +28,7 @@ export const clientReviews = [
     id: 1,
     name: 'Emily Johnson',
     position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
+    img: `${BASE_PATH}assets/review1.png`,
     review:
       'Working with Usman was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
   },
@@ -34,7 +36,7 @@ export const clientReviews = [
     id: 2,
     name: 'Mark Rogers',
     position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
+    img: `${BASE_PATH}assets/review2.png`,
     review:
       'Usman’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
   },
@@ -42,7 +44,7 @@ export const clientReviews = [
     id: 3,
     name: 'John Dohsas',
     position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
+    img: `${BASE_PATH}assets/review3.png`,
     review:
       'I can’t say enough good things about Usman. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
   },
@@ -50,7 +52,7 @@ export const clientReviews = [
     id: 4,
     name: 'Ether Smith',
     position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
+    img: `${BASE_PATH}assets/review4.png`,
     review:
       'Usman was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
   },
@@ -63,34 +65,34 @@ export const myProjects = [
     subdesc:
   'Built with React, Vite, Redux, and CoinGecko API, TokenTrack delivers a responsive, data-driven experience optimized for both desktop and mobile. Featuring wallet connectivity via Wagmi and RainbowKit, persistent state with localStorage, and visually precise charting, it ensures smooth performance and accurate insights.',
     href: 'https://token-portfolio-ruby.vercel.app/',
-    texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+    texture: 'textures/project/project1.mp4',
+    logo: `${BASE_PATH}assets/project-logo1.png`,
     logoStyle: {
       backgroundColor: '#18181B',
       border: '0.2px solid #A9E851',
       boxShadow: '0px 0px 60px 0px #AA3C304D',
     },
-    spotlight: '/assets/spotlight1.png',
+    spotlight: `${BASE_PATH}assets/spotlight1.png`,
     tags: [
       {
         id: 1,
         name: 'React.js',
-        path: '/assets/react.svg',
+        path: `${BASE_PATH}assets/react.svg`,
       },
       {
         id: 2,
         name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        path: `${BASE_PATH}assets/tailwindcss.png`,
       },
       {
         id: 3,
         name: 'TypeScript',
-        path: '/assets/typescript.png',
+        path: `${BASE_PATH}assets/typescript.png`,
       },
       {
         id: 4,
         name: 'Framer Motion',
-        path: '/assets/framer.png',
+        path: `${BASE_PATH}assets/framer.png`,
       },
     ],
   },
@@ -100,34 +102,34 @@ export const myProjects = [
     subdesc:
       'Developed using React and TypeScript, TalentVare demonstrates a focus on component-driven architecture, responsive UI, and performance optimization. Built as a test project, it highlights proficiency in modern frontend workflows and scalable code structuring.',
     href: 'https://talent-vare.vercel.app/',
-    texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
+    texture: 'textures/project/project2.mp4',
+    logo: `${BASE_PATH}assets/project-logo2.png`,
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #2a55a9',
       boxShadow: '0px 0px 60px 0px #2F6DB54D',
     },
-    spotlight: '/assets/spotlight2.png',
+    spotlight: `${BASE_PATH}assets/spotlight2.png`,
     tags: [
       {
         id: 1,
         name: 'React.js',
-        path: '/assets/react.svg',
+        path: `${BASE_PATH}assets/react.svg`,
       },
       {
         id: 2,
         name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        path: `${BASE_PATH}assets/tailwindcss.png`,
       },
       {
         id: 3,
         name: 'TypeScript',
-        path: '/assets/typescript.png',
+        path: `${BASE_PATH}assets/typescript.png`,
       },
       {
         id: 4,
         name: 'Framer Motion',
-        path: '/assets/framer.png',
+        path: `${BASE_PATH}assets/framer.png`,
       },
     ],
   },
@@ -137,8 +139,8 @@ export const myProjects = [
     subdesc:
       'Crafted with Next.js 14, TypeScript, and React, TravelEase focuses on seamless UI/UX performance and design precision. Built to highlight smooth animations, responsive layouts, and clean component architecture, it reflects a refined approach to modern frontend development.',
     href: 'https://travel-app-seven-rosy.vercel.app/',
-    texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.svg',
+    texture: 'textures/project/project3.mp4',
+    logo: `${BASE_PATH}assets/project-logo3.svg`,
     logoStyle: {
       backgroundColor: '#718c24',
       background:
@@ -146,27 +148,27 @@ export const myProjects = [
       border: '0.2px solid #2A5C32',
       boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
     },
-    spotlight: '/assets/spotlight3.png',
+    spotlight: `${BASE_PATH}assets/spotlight3.png`,
     tags: [
       {
         id: 1,
         name: 'React.js',
-        path: '/assets/react.svg',
+        path: `${BASE_PATH}assets/react.svg`,
       },
       {
         id: 2,
         name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        path: `${BASE_PATH}assets/tailwindcss.png`,
       },
       {
         id: 3,
         name: 'TypeScript',
-        path: '/assets/typescript.png',
+        path: `${BASE_PATH}assets/typescript.png`,
       },
       {
         id: 4,
         name: 'Framer Motion',
-        path: '/assets/framer.png',
+        path: `${BASE_PATH}assets/framer.png`,
       },
     ],
   },
@@ -176,34 +178,34 @@ export const myProjects = [
     subdesc:
       'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
     href: 'https://banking-app-with-finance-managemanet-dashboard.vercel.app/sign-in',
-    texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
+    texture: 'textures/project/project4.mp4',
+    logo: `${BASE_PATH}assets/project-logo4.png`,
     logoStyle: {
       backgroundColor: '#0E1F38',
       border: '0.2px solid #0E2D58',
       boxShadow: '0px 0px 60px 0px #2F67B64D',
     },
-    spotlight: '/assets/spotlight4.png',
+    spotlight: `${BASE_PATH}assets/spotlight4.png`,
     tags: [
       {
         id: 1,
         name: 'React.js',
-        path: '/assets/react.svg',
+        path: `${BASE_PATH}assets/react.svg`,
       },
       {
         id: 2,
         name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        path: `${BASE_PATH}assets/tailwindcss.png`,
       },
       {
         id: 3,
         name: 'TypeScript',
-        path: '/assets/typescript.png',
+        path: `${BASE_PATH}assets/typescript.png`,
       },
       {
         id: 4,
         name: 'Framer Motion',
-        path: '/assets/framer.png',
+        path: `${BASE_PATH}assets/framer.png`,
       },
     ],
   },
@@ -213,34 +215,34 @@ export const myProjects = [
     subdesc:
       'Built with Next.js and TypeScript, Jawaan Champions focuses on performance, responsiveness, and clean UI architecture. Designed to deliver a smooth user experience across devices, it reflects attention to detail and a passion for modern frontend development.',
     href: 'https://jawaanchampions.com/',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
+    texture: 'textures/project/project5.mp4',
+    logo:`${BASE_PATH}assets/project-logo5.png`,
     logoStyle: {
       backgroundColor: '#cbe6f0ff',
       border: '0.2px solid #ffffff',
       boxShadow: '0px 0px 60px 0px #635BFF4D',
     },
-    spotlight: '/assets/spotlight5.png',
+    spotlight: `${BASE_PATH}assets/spotlight5.png`,
     tags: [
       {
         id: 1,
         name: 'React.js',
-        path: '/assets/react.svg',
+        path: `${BASE_PATH}assets/react.svg`,
       },
       {
         id: 2,
         name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        path: `${BASE_PATH}assets/tailwindcss.png`,
       },
       {
         id: 3,
         name: 'TypeScript',
-        path: '/assets/typescript.png',
+        path: `${BASE_PATH}assets/typescript.png`,
       },
       {
         id: 4,
         name: 'Framer Motion',
-        path: '/assets/framer.png',
+        path: `${BASE_PATH}assets/framer.png`,
       },
     ],
   },
@@ -264,7 +266,7 @@ export const workExperiences = [
     pos: 'UI/UX Developer',
     duration: 'April 2025 - Present',
     title: "I work as a UI/UX Developer, creating responsive and user-friendly web interfaces using HTML, CSS, Tailwind CSS, Angular, and PHP. I focus on building visually consistent, high-performing designs and collaborate with my team to improve usability and ensure a smooth user experience across all devices.",
-    icon: '/assets/hulhub.png',
+    icon: `${BASE_PATH}assets/hulhub.png`,
     animation: 'victory',
   },
   {
@@ -273,7 +275,7 @@ export const workExperiences = [
     pos: 'Full Stack Developer',
     duration: 'Sep 2024 - March 2025',
     title: "As a Full Stack Developer, I worked on both front-end and back-end development to build scalable, user-friendly web applications. I developed responsive interfaces, integrated APIs, managed databases, and ensured smooth communication between client and server. I collaborated with the team to deliver efficient, high-quality solutions and optimized performance across the entire tech stack.",
-    icon: '/assets/kaafforcreative.png',
+    icon: `${BASE_PATH}assets/kaafforcreative.png`,
     animation: 'clapping',
   },
   {
@@ -282,7 +284,7 @@ export const workExperiences = [
     pos: 'React Developer',
     duration: 'Nov 2022 - April 2025',
     title: "As a React.js Developer at a startup, I build responsive and engaging user interfaces that shape the company’s digital presence. I work closely with the team to turn ideas into functional, visually appealing components. Staying updated with the latest React.js trends, I focus on creating smooth, intuitive user experiences that support the startup’s growth and success.",
-    icon: '/assets/steptech.png',
+    icon: `${BASE_PATH}assets/steptech.png`,
     animation: 'salute',
   },
 ];

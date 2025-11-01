@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { navLinks } from '../constant';
 
+import { BASE_PATH } from '../utils/basepath'
+
 
 const NavItems = () => {
     return(
@@ -31,7 +33,13 @@ const Navbar = () => {
                 </a>
                 <button onClick={toggleMenu} className='text-neutal-400 hover:text-white focus:outline-none sm:hidden flex'
                 aria-label="Toggle menu">
-                    <img src={isOpen ? "assets/close.svg" : "assets/menu.svg"} alt="toggle" className='w-6 h-6' />
+                    <img src={
+                        isOpen
+                        ? `${BASE_PATH}assets/close.svg`
+                        : `${BASE_PATH}assets/menu.svg`
+                        } 
+                    alt="toggle" 
+                    className='w-6 h-6' />
                 </button>
 
                 <nav className='sm:flex hidden'>
