@@ -22,8 +22,8 @@ const About = () => {
                 <div className='grid-container'>
                     <img src={`${BASE_PATH}assets/grid1.png`} alt="grid-1" className='w-full sm:h-[276px] h-fit object-container' />
                     <div>
-                        <p className="grid-headtext">Hi, I’m Usman Wasif</p>
-                        <p className="grid-subtext"> With 3 years of experience, I have horned my skills in both frontend and backend dev, creating dynamic
+                        <p className="grid-headtext text-center md:text-left">Hi, I’m Usman Wasif</p>
+                        <p className="grid-subtext text-center md:text-left"> With 3 years of experience, I have horned my skills in both frontend and backend dev, creating dynamic
                             and responsive websites.
                         </p>
                     </div>
@@ -34,8 +34,8 @@ const About = () => {
             <img src={`${BASE_PATH}assets/grid2.png`} alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Tech Stack</p>
-              <p className="grid-subtext">
+              <p className="grid-headtext text-center md:text-left">Tech Stack</p>
+              <p className="grid-subtext text-center md:text-left">
                 I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
                 applications
               </p>
@@ -58,8 +58,8 @@ const About = () => {
               />
             </div>
             <div>
-              <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Pakistan and open to remote work worldwide.</p>
+              <p className="grid-headtext text-center md:text-left">I’m very flexible with time zone communications & locations</p>
+              <p className="grid-subtext text-center md:text-left">I&apos;m based in Pakistan and open to remote work worldwide.</p>
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
             </div>
           </div>
@@ -69,8 +69,8 @@ const About = () => {
             <img src={`${BASE_PATH}assets/grid3.png`} alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">My Passion for Coding</p>
-              <p className="grid-subtext">
+              <p className="grid-headtext text-center md:text-left">My Passion for Coding</p>
+              <p className="grid-subtext text-center md:text-left">
                 I love solving problems and building things through code. Programming isn&apos;t just my
                 profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
               </p>

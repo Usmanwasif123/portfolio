@@ -1,7 +1,7 @@
 import { BASE_PATH } from '../utils/basepath'
 const Footer = () => {
   return (
-    <footer className="c-space pt-7 pb-3 border-t border-black-300 flex justify-between items-center flex-wrap gap-5">
+    <footer className="c-space pt-3 pb-6 border-t border-black-300 flex flex-col items-center text-center gap-5 md:flex-row md:justify-between md:items-center md:text-left xl:max-w-[1600px] 2xl:max-w-[2000px] mx-auto w-full relative z-10 mt-5 2xl:mt-7">
       <div className="text-white-500 flex gap-2">
         <p>Terms & Conditions</p>
         <p>|</p>

@@ -10,7 +10,7 @@ import Experience from './sections/Experience'
 
 const App = () => {
   return (
-    <main className="max-w-7xl mx-auto">
+    <main className="w-full md:max-w-7xl xl:max-w-[1600px] 2xl:max-w-[2000px] mx-auto px-4 overflow-visible">
       <Navbar/>
       <Hero />
       <About/>

@@ -60,14 +60,14 @@ const Contact = () => {
   };
 
   return (
-    <section className="c-space my-20" id="contact">
+    <section className="c-space my-20 md:my-20 xl:my-20 2xl:my-20 relative z-10" id="contact">
       {alert.show && <Alert {...alert} />}
 
-      <div className="relative min-h-screen flex items-center justify-center flex-col">
-        <img src={`${BASE_PATH}assets/terminal.png`} alt="terminal-bg" className="absolute inset-0 min-h-screen" />
+      <div className="relative min-h-[100vh] xl:min-h-[120vh] 2xl:min-h-[140vh] flex items-center justify-center flex-col">
+        <img src={`${BASE_PATH}assets/terminal.png`} alt="terminal-bg" className="absolute inset-0 w-full h-full object-cover opacity-40" />
 
-        <div className="contact-container">
-          <h3 className="head-text mt-10">Let's talk</h3>
+        <div className="relative z-10 contact-container max-w-xl md:max-w-2xl xl:max-w-4xl 2xl:max-w-5xl mx-auto px-6">
+          <h3 className="head-text mt-8 md:mt-10 2xl:mt-20">Let's talk</h3>
           <p className="text-lg text-white-600 mt-3">
             Whether you’re looking to build a new website, improve your existing platform, or bring a unique project to
             life, I’m here to help.

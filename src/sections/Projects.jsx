@@ -45,14 +45,14 @@ const Projects = () => {
           </div>
 
           <div className="flex flex-col gap-5 text-white-600 my-5">
-            <p className="text-white text-2xl font-semibold animatedText">{currentProject.title}</p>
+            <p className="text-white text-2xl font-semibold animatedText text-center md:text-left">{currentProject.title}</p>
 
-            <p className="animatedText">{currentProject.desc}</p>
-            <p className="animatedText">{currentProject.subdesc}</p>
+            <p className="animatedText text-center md:text-left">{currentProject.desc}</p>
+            <p className="animatedText text-center md:text-left">{currentProject.subdesc}</p>
           </div>
 
           <div className="flex items-center justify-between flex-wrap gap-5">
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 justify-center md:justify-start w-full">
               {currentProject.tags.map((tag, index) => (
                 <div key={index} className="tech-logo">
                   <img src={tag.path} alt={tag.name} />
