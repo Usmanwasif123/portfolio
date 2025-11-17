@@ -5,7 +5,8 @@ import HackerRoom from '../components/HackerRoom'
 import CanvasLoader from '../components/CanvasLoader'
 import {calculateSizes} from '../constant/index.js'
 import { useMediaQuery } from 'react-responsive'
-import Target from '../components/Target.jsx'
+// import Target from '../components/Target.jsx'
+import GithubLogo from '../components/GithubLogo.jsx'
 import ReactLogo from '../components/ReactLogo.jsx'
 import Cube from '../components/Cube.jsx'
 import Rings from '../components/Rings.jsx'
@@ -47,7 +48,7 @@ const Hero = () => {
                 
                     <group>
 
-                    <Target position={sizes.targetPosition} />
+                    <GithubLogo position={sizes.githubPosition} /> 
                     <ReactLogo position={sizes.reactLogoPosition} />
                     <Cube position={sizes.cubePosition} />
                     <Rings position={sizes.ringPosition} />
